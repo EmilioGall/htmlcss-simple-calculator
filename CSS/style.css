@@ -14,7 +14,7 @@
 }
 
 .container {
-    width: 350px;
+    width: 360px;
     margin: 0px auto;
 }
 
@@ -53,7 +53,7 @@
     text-align: center;
     background-color: lightgray;
     border-radius: 0 0 10px 10px;
-    padding: 5px;
+    padding: 10px;
     display: flex;
 
 }
@@ -76,6 +76,7 @@
     margin: 5px;
     border-radius: 5px;
     font-family: "Orbitron", sans-serif;
+    box-shadow: -2px 2px #8b8b8b;
 }
 
 .grid > .buttons {
