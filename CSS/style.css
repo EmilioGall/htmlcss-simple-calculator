@@ -6,11 +6,8 @@
 
 }
 
-/* COMMON */
 
-body {
-    font-family: Seven Segment, sans-serif;
-}
+/* COMMON */
 
 .centered-text {
     text-align: center;
@@ -43,6 +40,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 10px;
+    font-family: Seven Segment, sans-serif;
 }
 
 .display-text {
@@ -57,26 +55,58 @@ body {
     background-color: lightgray;
     border-radius: 0 0 10px 10px;
     padding: 5px;
-    
-}
-
-.buttons {
-    width: 60px;
-    height: 60px;
-    margin: 5px;
-    line-height: 60px;
-    border-radius: 5px;
-
-
-    /* Notes */
-    background-color: grey;
+    display: flex;
 
 }
 
 .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
 
 }
 
 .column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+
+}
+
+.buttons {
+    margin: 4px;
+    border-radius: 5px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.grid > .buttons {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+}
+
+.column > .buttons {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+.grey {
+    background-color: #bbb;
+
+}
+
+.orange {
+    background-color: #ff9f0a;
+    color: white;
+
+}
+
+.blue {
+    background-color: #77a8b0;
+    color: white;
 
 }
