@@ -43,7 +43,6 @@ body {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 10px;
-
 }
 
 .display-text {
@@ -53,3 +52,31 @@ body {
 
 /* Buttons Section */
 
+.keybord {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 0 0 10px 10px;
+    padding: 5px;
+    
+}
+
+.buttons {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    line-height: 60px;
+    border-radius: 5px;
+
+
+    /* Notes */
+    background-color: grey;
+
+}
+
+.grid {
+
+}
+
+.column {
+
+}
